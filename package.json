@@ -1,0 +1,23 @@
+{
+  "name": "supertest",
+  "version": "0.0.0",
+  "description": "Somos la repolla ocn node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xe54374/test.git"
+  },
+  "author": "tyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xe54374/test/issues"
+  },
+  "homepage": "https://github.com/xe54374/test#readme",
+  "dependencies": {
+    "express": "4.13.4",
+    "firebase": "2.4.1"
+  }
+}
