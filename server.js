@@ -34,7 +34,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public')); //Esto es un comentario de prueba
 
 app.get('/', function(req, res) {
     res.sendfile('./public/index.html'); // load our public/index.html file
